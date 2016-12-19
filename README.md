@@ -5,7 +5,9 @@ remember a quote
 
 1. Install node.js
 2. Install ionic 2
-3. to run the site use ionic serve
+3. change to project folder
+4. run npm install
+5. to run the site run ionic serve
 
 # screens
 
