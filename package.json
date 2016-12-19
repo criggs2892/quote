@@ -7,7 +7,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/BuildInTheCloud/quote.git"
+    "url": "https://github.com/criggs2892/quote.git"
   },
   "scripts": {
     "ionic:build": "ionic-app-scripts build",
