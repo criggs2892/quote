@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>My Quotes</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+
+  <ion-card *ngIf="myQuotes.length == 0">
+    <ion-card-content>
+      <p>Add a quote to see it display on the page !</p>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card *ngFor="let quote of myQuotes; let i = index;">
+    <ion-card-content>
+      <p [innerHTML]="quote"></p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

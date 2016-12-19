@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>New Quote</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-content>
+      <h1>Enter Your Quote</h1>
+      <textarea [(ngModel)]="newQuote"></textarea>
+      <button ion-button color="secondary" (click)="addQuote()">Add Quote</button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
